@@ -1,5 +1,7 @@
+
  //get location 
 var map = L.map('map').fitWorld();
+
 const tile = L.tileLayer(
     'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png?{foo}', {
         foo: 'bar', 
