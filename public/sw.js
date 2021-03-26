@@ -10,11 +10,13 @@ var STATIC_FILES = [
   '/img/logo.png',
   '/map.js',
   "https://code.jquery.com/jquery-3.5.1.slim.min.js",
+  "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js",
   "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js",
   "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css",
   "https://unpkg.com/leaflet@1.7.1/dist/leaflet.js",
   "https://unpkg.com/leaflet@1.7.1/dist/leaflet.css",
-  "http://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js",
+  "https://cdn.socket.io/3.1.3/socket.io.min.js",
+
   
 ];
 
