@@ -21,7 +21,7 @@ var db = firebase.firestore();
       console.log(symptoms);
   }
   
-  const ok = () => {
+  function ok(){
     const coords = JSON.parse(localStorage.getItem("user_location"));
       db.collection("symptoms").add({
         cough:symptoms.cough,
